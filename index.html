@@ -11,6 +11,27 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+
+  <style>
+  body {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  @media (max-width: 767px) {
+    .col-md-8, .col-md-4 {
+      width: 100%;
+      float: none;
+    }
+    .navbar-nav {
+      text-align: center;
+    }
+    .navbar-nav li {
+      float: none;
+      display: inline-block;
+    }
+  }
+  </style>
+
 </head>
 <body>
 
@@ -19,13 +40,15 @@
 	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
 	  <div class="container">
 		<div class="navbar-header">
+		  <a class="navbar-brand" href="index.html">Abbie Boatwright</a>
 		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
+		    <span class="sr-only">Toggle navigation</span>
+		    <span class="icon-bar"></span>
+		    <span class="icon-bar"></span>
+		    <span class="icon-bar"></span>
+		  </button>
 		</div>
+
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -47,7 +70,7 @@
             <div class="col-md-8" style="height: 100vh;">
                 
                 <!-- Main Image -->
-		<div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Abbie Boatwright</b></div><br>
+<div style="font-family: 'Oswald', sans-serif; font-size: 28px; line-height:1.3;"><b>Abbie Boatwright</b></div>
                 <p><b>4th Year PhD Candidate</b><br>
 				  <p> <em> Expected Graduation: May 2026 </em> 
                 <p>Economics Department<br>
@@ -74,14 +97,10 @@ Alter Trade Around the World,"</a> by Abbie Boatwright and Derek Lemoine</li>
 
             <!-- Contact Info on the Sidebar -->
             <div class="col-md-4">
-                <img height=“200” src="photo.gif" alt=""><br>
-            </div>
-            
-            
-            <!-- Links on the Sidebar -->
-            <div class="col-md-4" style="margin-top:2%">
-              <dd><a href="https://www.linkedin.com/in/abbie-boatwright-b09572157/">LinkedIn</a></dd>
-            </div>
+			  <img src="photo.gif" alt="Profile photo" class="img-responsive img-rounded" style="margin-bottom:15px;">
+			  <dd><a href="https://www.linkedin.com/in/abbie-boatwright-b09572157/">LinkedIn</a></dd>
+			</div>
+
             
 
             
